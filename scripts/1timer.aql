@@ -1,5 +1,5 @@
 items.find({
-    "repo":"conanapp-dev-local",
+    "repo":"conan-dev-local",
     "name":{"$match":"timer-*"},
     "@test":{"$eq":"done"},
     "@arch":{"$eq":"x86_64"},
